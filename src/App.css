@@ -1,0 +1,58 @@
+.search-input {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-image: linear-gradient(
+    #e7dede,
+    rgb(233, 219, 219) 0%,
+    #e9e0e0 48%,
+    #e7dada 100%
+  );
+}
+.search-input::placeholder {
+  font-size: 1rem;
+}
+.sound-app {
+  width: 100%;
+}
+.song {
+  border-bottom: 1px solid #eee !important;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.audio {
+  width: 100%;
+  outline: 0;
+  color-adjust: #000;
+}
+.delete-song,
+.song {
+  cursor: pointer;
+}
+.audio:hover,
+.audio:focus,
+.audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.audio {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow: 2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+}
